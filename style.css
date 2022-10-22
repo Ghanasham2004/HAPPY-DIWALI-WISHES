@@ -19,7 +19,7 @@ body{
 }
 #bgtr{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: rgba(0, 0, 0, 0.966);
     opacity: .8;
     z-index: -1;
@@ -43,7 +43,7 @@ h1{
     flex-direction: column;
     background:rgb(208, 211, 214);
     min-height:250px;
-    min-width: 380px;
+    min-width: 300px;
     border: 5px solid rgb(250, 248, 252);
     border-radius: 7px;
     box-shadow: 0px 0px 15px 2px rgba(14, 13, 13, 0.932);
