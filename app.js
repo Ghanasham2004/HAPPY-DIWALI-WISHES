@@ -92,7 +92,7 @@ function copyquote1() {
     let copytext = output.innerHTML;
     let dummy = document.createElement("textarea");
     document.body.appendChild(dummy);
-    dummy.value = copytext + "*- FROM " + uname + "*";
+    dummy.value = copytext + " *- FROM " + uname + "*";
     dummy.select();
     document.execCommand("copy");
     document.body.removeChild(dummy);
