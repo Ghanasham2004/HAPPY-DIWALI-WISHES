@@ -15,7 +15,7 @@ body{
     background-position: center;
     min-height: 100vh;
     min-width: 100vw;
-    transition: 2s ease-in-out;
+    transition: .5s ease;
 }
 #bgtr{
     height: 100vh;
@@ -26,7 +26,7 @@ body{
     position: absolute;
 }
 h1{
-    position: absolute;
+    position: relative;
     top: 70px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 4px;
