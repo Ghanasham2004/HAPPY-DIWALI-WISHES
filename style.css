@@ -29,8 +29,9 @@ body{
     position: absolute;
 }
 h1{
-    position: absolute;
-    top: 50px;
+    position: fixed;
+    top: 20px;
+    margin:auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 4px;
     color: #fff;
