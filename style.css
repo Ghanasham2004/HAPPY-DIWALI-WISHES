@@ -19,7 +19,10 @@ body{
 }
 #bgtr{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    top:0;
+    right:0;
+    position: fixed;
     background: rgba(0, 0, 0, 0.966);
     opacity: .5;
     z-index: -1;
